@@ -52,6 +52,7 @@ def main(example = input('Введите пример: ')):
     list_of_example = make_separation(example)
     check_exceptions(list_of_example)
     print(f'Ответ: {figure_out(list_of_example)}')
+    return figure_out(list_of_example)
 
 
 if __name__ == '__main__':
